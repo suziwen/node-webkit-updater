@@ -26,12 +26,11 @@
     "test": "node node_modules/grunt-cli/bin/grunt clean mochaTest"
   },
   "dependencies": {
+    "del": "~0.1.2",
     "ncp": "^0.5.1",
     "request": "~2.79.0",
-    "tar.gz": "^0.1.1",
-    "del": "~0.1.2",
-    "unzip": "0.1.11",
-    "semver": "^5.0.3"
+    "semver": "^5.0.3",
+    "unzipper": "^0.10.8"
   },
   "devDependencies": {
     "grunt-contrib-clean": "^0.5.0",

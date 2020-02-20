@@ -7,7 +7,7 @@
   var ncp = require('ncp');
   var del = require('del');
   var semver = require('semver');
-  var unzip = require('unzip');
+  var unzip = require('unzipper');
 
   var platform = process.platform;
   platform = /^win/.test(platform)? 'win' : /^darwin/.test(platform)? 'mac' : 'linux' + (process.arch == 'ia32' ? '32' : '64');
